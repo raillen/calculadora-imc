@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Comfortaa:wght@400;500;600&display=swap" rel="stylesheet"> 
+    <title>Calculadora - IMC</title>
+</head>
+<body>
+
+    <div class="flex rounded-border">
+        
+        <div class="title">
+            <h1>Calculadora - IMC</h1>
+        </div>
+    
+        <div class="inputs">
+            <div>
+                <label for="nome">Nome: </label>
+                <input type="text" name="nome" id="nome" autocomplete="off">
+            </div>
+            <div>
+                <label for="altura">Altura: </label>
+                <input type="text" name="altura" id="altura" autocomplete="off">
+            </div>
+            <div>
+                <label for="peso">Peso: </label>
+                <input type="text" name="peso" id="peso" autocomplete="off">
+            </div>
+        </div>
+
+        <button class="calc" id="calc">Calcular</button>
+
+        <div class="result">
+            <p id="result"></p>
+        </div>
+    </div>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
