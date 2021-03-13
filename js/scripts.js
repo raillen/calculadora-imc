@@ -30,7 +30,7 @@ function imc(){
         else if(imc >= 40){
             avaliacao = "está com obesidade mórbida"
         }
-        else if(imc ==! NaN || imc ==! Infinity){
+        else if(imc === NaN || imc === Infinity){
             avaliacao = 'Seu imc não consta na tabela oficial'
         }
         
