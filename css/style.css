@@ -56,6 +56,12 @@ body{background-color: #ffeead;}
     border-radius: 20px;
     transform: scale(105%);
     transition: transform 330ms ease-in-out;
+    -webkit-transform: scale(105%);
+    -webkit-transition: transform 330ms ease-in-out;
+    -moz-transform: scale(105%);
+    -moz-transition: transform 330ms ease-in-out;
+    -ms-transform: scale(105%);
+    -ms-transition: transform 330ms ease-in-out;
 }
 .inputs div label{
     color: #ff6f69;
@@ -75,9 +81,15 @@ body{background-color: #ffeead;}
 .calc:hover{
     cursor: pointer;
     outline: none;
+    background-color: #fcd47e;
     transform: scale(105%);
     transition: transform 230ms ease-in-out;
-    background-color: #fcd47e;
+    -webkit-transform: scale(105%);
+    -webkit-transition: transform 230ms ease-in-out;
+    -moz-transform: scale(105%);
+    -moz-transition: transform 230ms ease-in-out;
+    -ms-transform: scale(105%);
+    -ms-transition: transform 230ms ease-in-out;
 }
 .result{
     background-color: #ffcc5c;
